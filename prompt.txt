@@ -1,0 +1,35 @@
+Create a cyberpunk-style Tetris game in Java with the following requirements:
+
+1. Tech Stack:
+   - Java 21 with Swing for GUI
+   - Maven for build management
+   - No external game libraries, use pure Java Swing
+
+2. Visual Style - Cyberpunk/Sci-fi:
+   - Dark background with neon glow effects
+   - Glowing block pieces with gradient colors (cyan, magenta, electric blue, neon green, orange, purple)
+   - Grid lines with subtle glow
+   - Particle effects when lines are cleared
+   - Score display with LED-style font effect
+   - Smooth animations for piece movement and line clears
+
+3. Game Features:
+   - Standard Tetris gameplay (7 tetromino shapes)
+   - Next piece preview
+   - Score, level, and lines cleared display
+   - Increasing difficulty with levels
+   - Pause/Resume functionality
+   - Game over screen with final score
+   - Keyboard controls: Arrow keys for movement, Up to rotate, Space for hard drop, P to pause
+
+4. Project Structure:
+   - Standard Maven project structure
+   - Main class: com.cybertetris.Game
+   - Proper separation: GamePanel, Tetromino, Board, ScoreManager classes
+   - Include a README.md with build and run instructions
+
+5. Build:
+   - Create a complete pom.xml
+   - Main class should be configurable in pom.xml for easy execution
+
+Make it visually stunning with smooth gameplay. Focus on the cyberpunk aesthetic with glowing neon effects.
